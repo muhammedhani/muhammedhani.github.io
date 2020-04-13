@@ -1,0 +1,64 @@
+body {
+  font-family: helvetica;
+  background-color: #828282;
+}
+
+#header {
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  line-height: 50px;
+}
+
+#header h1 {
+  color: #FD845C;
+  font-size: 36px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+#main {
+  padding: 10px 20px;
+}
+
+#form{
+  margin: 10px 20px;
+}
+
+#form form label {
+  font-weight: bold;
+}
+
+#results {
+  margin: 20px;
+}
+
+.person {
+  margin: 10px;
+  padding: 10px;
+  background-color: #FD845C;
+  height: 60px;
+}
+
+.person img {
+  float: left;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.person .person-info {
+  float: left;
+  margin-bottom: 5px;
+}
+
+.person button {
+  float: right;
+}
+
+@media screen and (min-width: 700px) {
+  .some-container {
+    width: 50%;
+    float: left;
+  }
+
+}

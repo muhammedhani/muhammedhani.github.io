@@ -1,0 +1,228 @@
+body{
+    background-color: #1d1d1d;
+    font-family: "Times New Roman",Tahoma,Arial;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    font: bold 15px "Times New Roman";
+    color: #919191;
+    width: 100%;
+    height: 60px;
+    background-color: #1d1d1d;
+    margin: 0;
+    padding-right: 0;
+    padding-top: 8px;
+    position: static;
+    border-bottom: 1px solid #2f2f2f;
+}
+.image01{
+    width: 6%;
+    height: 30px;
+    color: whitesmoke;
+    margin-left: 8%;
+}
+.image01 a img{
+    width: 100%;
+    height: 45px;
+    float: left;
+    margin-left: 8%;
+}
+.navcontent{
+    width: 70%;
+    float: right;
+    margin-right: 0;
+}
+.image01, .navcontent{
+    display: inline-block;
+}
+#quicksearch-input{
+    background-color: #1d1d1d;
+    font-weight: bold;
+    color: #919191;
+    display: inline-block;
+    font-size: 15px;
+    width: 28%;
+    margin-right: 25px;
+    padding: 5px;3
+    border-style: solid;
+    border-width: 2px;
+    border-color: #919191;
+    border-radius: 50px;
+    float: right;
+    margin-top: 8px;
+}
+.navlinks, .guest-navlinks, .navlinks li, .guest-navlinks li{
+    display: inline-block;
+}
+.navlinks, .guest-navlinks{
+    list-style: none;
+    float: right;
+}
+.guest-navlinks{
+    margin-right: 10%;
+    clear: both;
+}
+.guest-navlinks li a{
+    color: whitesmoke;
+}
+.guest-navlinks li a:hover{
+    color: #919191;
+}
+.navlinks li a{
+    color: #919191;
+}
+.navlinks li a:hover{
+    color: whitesmoke;
+}
+.navlinks li a, .guest-navlinks li a{
+    text-decoration: none;
+}
+
+
+
+.main{
+    position: relative;
+    overflow: hidden;
+    height: 450px;
+}
+.main .background{
+    background-image: url(../Images/residentevil2-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    filter: blur(3px);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.main .overlay{
+    width: 100%;
+    background: linear-gradient(to bottom,rgba(29,29,29,0.65) 0,rgba(29,29,29,1) 100%);
+    height: 450px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.gameimage{
+    vertical-align: top;
+    width: 330px;
+    margin-left: 23px;
+    margin-top: 15px;
+}
+.gameimage img{
+    border: 5px solid whitesmoke;
+    border-radius: 4px;
+    width: 245px;
+    margin: 35px;
+}
+.gameinfo{
+    vertical-align: top;
+    width: 835px;
+    margin-top: 15px;
+}
+.gameinfo h1, .gameinfo h2{
+    margin-top: 45px;
+}
+.gameimage, .gameinfo{
+    color: whitesmoke;
+    display: inline-block;
+}
+
+
+
+.gamepreview{
+    width: 100%;
+    margin-right: 5%;
+    margin-left: 4.5%;
+    padding: 0;
+}
+.gamepreview div{
+    display: inline-block;
+    width: 30%;
+}
+.gamepreview div iframe{
+    margin-left: 0;
+}
+.gamepreview div iframe, .gamepreview div img{
+    width: 100%;
+    height: 190px;
+}
+
+
+
+.navtabs{
+    margin: auto;
+    margin-top: 30px;
+    width: 91%;
+}
+.navtabs ul {
+    font: 20px "Times New Roman";
+    text-align: center;
+    color: #919191;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    display: table;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+}
+.navtabs ul li{
+    display: table-cell;
+    background-color: #151515;
+    padding: 15px;
+}
+.navtabs ul li.activetab, .navtabs ul li:hover{
+    background-color: #4f9432;
+    color: whitesmoke;
+    cursor: pointer
+}
+.tabcontent{
+    color: whitesmoke;
+    font: 20px "Times New Roman";
+}
+.navtabs .tabcontent{
+    border: 1px solid #4f9432;
+}
+.navtabs .tabcontent .tab{
+    display: none;
+    background-color: #151515;
+    padding: 20px;
+}
+.navtabs .tabcontent .tab.tabshow {
+    display: block;
+}
+
+
+
+
+.footer{
+    border-top: 1px solid #2f2f2f;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 0;
+    padding-top: 8px;
+}
+.footer .links{
+    width: 60%;
+    margin: 0 auto;
+    background-color: #1d1d1d;
+    color: #919191;
+    text-align: center;
+}
+.footer .links ul li{
+    display: inline-block;
+}
+.footer .links ul li a{
+    font: bold 17px "Times New Roman";
+    color: #919191;
+    text-decoration: none;
+}
+.footer .links ul li a:hover{
+    color: whitesmoke;
+}
